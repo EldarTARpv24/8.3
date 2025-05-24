@@ -89,7 +89,7 @@ def validate_subject(teema):
 def valid_pilt():
     global files  
     files = askopenfilename()  
-    pealkiri3.configure(text = "Выбрано: " + files)
+    pealkiri3.configure(text = "Valitud: " + files)
     return files
 
 
